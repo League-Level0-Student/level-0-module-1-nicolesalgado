@@ -13,16 +13,16 @@ public class TheRiddler {
 		// 1. Make a variable to hold the score
 int score = 0;
 		// 3. Ask the user a riddle. Here are some ideas: bit.ly/some-riddles
-JOptionPane.showMessageDialog(null,"What is greater than God?");
+JOptionPane.showMessageDialog(null,"If you eat a poisened apple will you die?");
 		// 4. If they got the answer right, pop up "correct!" and increase the score by one
-JOptionPane.showMessageDialog(null,"more evil than the devil?");
+JOptionPane.showMessageDialog(null,"is being rich awsome!?");
 		// 5. Otherwise, say "wrong" and tell them the answer
-JOptionPane.showMessageDialog(null, "the rich need it?");
+JOptionPane.showMessageDialog(null, "whats your favorite dog and why is it so?");
 		// 6. Add some more riddles
-String Input = JOptionPane.showInputDialog(null,  "and if you eat it, you will die?");
+String input = JOptionPane.showInputDialog(null,  "if you don't go to school will it affect your life and why?");
 		// 2. Make a pop up to show the score.
 
-Input = JOptionPane.showInputDialog("what is the first disney movie?");
+input = JOptionPane.showInputDialog("what is the first disney movie?");
 JOptionPane.showMessageDialog(null,"correct");
 		
 	}
