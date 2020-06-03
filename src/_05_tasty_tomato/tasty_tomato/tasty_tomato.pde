@@ -10,6 +10,8 @@ void draw() {
     ellipse(150, 200, 150, 150);
     ellipse(212, 200, 150, 150);
     
+    fill(0,0,255);
+    ellipse(50,50,50,50);
     //chose a color that is like blue using fill()
     //ellipse below this comment ellipse()
 
