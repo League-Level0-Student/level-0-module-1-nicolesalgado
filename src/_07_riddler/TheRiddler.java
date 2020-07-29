@@ -13,7 +13,14 @@ public class TheRiddler {
 		// 1. Make a variable to hold the score
 int score = 0;
 		// 3. Ask the user a riddle. Here are some ideas: bit.ly/some-riddles
-JOptionPane.showMessageDialog(null,"If you eat a poison apple will you die?");
+String answer = JOptionPane.showInputDialog(null,"If you eat a poison apple will you die?");
+if(answer.equals("yes")) {
+	JOptionPane.showMessageDialog(null, "Correct!");
+	score++;
+}
+else {
+	JOptionPane.showMessageDialog(null, "Wrong!  The answer is yes");
+}
 		// 4. If they got the answer right, pop up "correct!" and increase the score by one
 JOptionPane.showMessageDialog(null,"is being rich awsome!?");
 		// 5. Otherwise, say "wrong" and tell them the answer
